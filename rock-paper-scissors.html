@@ -93,7 +93,8 @@
             //1 is rock
             //2 is paper
             //3 is scissors
-            var computerChoice;
+
+            var computerChoice = dice(3);
 
             //This boolean value represents if the human won
             var humanWins = false;
@@ -104,7 +105,21 @@
             //STEP 2:
             //Check to see who won and set humanWins & tied
             //You'll need to build additional if statements
-            if () {}
+            if (humanChoice == 1) {
+                if (computerChoice == 1) tied = true; //rock-rock
+                else if (computerChoice == 2) humanWins = false; //rock-paper
+                else humanWins = true; //rock-scissors
+            }
+            else if (humanChoice == 2) {
+                if (computerChoice == 1) humanWins = false; //paper-rock
+                else if (computerChoice == 2) tied = true; //paper-paper
+                else humanWins = false; //paper-scissors
+            }
+            else if (humanChoice == 3) {
+                if (computerChoice == 1) humanWins = false; //scissors-rock
+                else if (computerChoice == 2) humanWins = true; //scissors-paper
+                else tied = true; //scissors-scissors
+            }
 
             //STEP 3:
             //Build a string to display the results of the game
@@ -114,7 +129,7 @@
             //    b) What the computer chose
             //    c) Whether you won or not
             //You may need if statements somewhere around this task
-            var end;
+            var end = ;
 
             //STEP 4:
             //Reach out into the DOM with getElementById() and insert the end into the result div.
