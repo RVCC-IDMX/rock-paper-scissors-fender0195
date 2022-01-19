@@ -129,10 +129,54 @@
             //    b) What the computer chose
             //    c) Whether you won or not
             //You may need if statements somewhere around this task
-            var end ;
+            
+            var end = "";
+
+            if (humanChoice == 1) {
+                end += 'You Chose Rock';
+            }
+            else if (humanChoice == 2) {
+                end += "You Chose Paper";
+            }
+            else if (humanChoice == 3) {
+                end += "You Chose Scissor";
+            }
+
+            end += " ";
+
+            if (computerChoice == 1) {
+                end += 'The Computer Chose Rock';
+            }
+            else if (computerChoice == 2) {
+                end += "The Computer Chose Paper";
+            }
+            else if (computerChoice == 3) {
+                end += "The Computer Chose Scissor";
+            }
+
+            end += " ";
+
+            if (humanChoice == 1) {
+                if (computerChoice == 1) end += "Is a Tie!"; //rock-rock
+                else if (computerChoice == 2) end += "You Lose!"; //rock-paper
+                else end += "You Win!"; //rock-scissors
+            }
+            if (humanChoice == 2) {
+                if (computerChoice == 1) end += "You Win!"; //paper-rock
+                else if (computerChoice == 2) end += "Is a Tie!"; //paper-paper
+                else end += "You Lose!"; //paper-scissors
+            }
+            if (humanChoice == 3) {
+                if (computerChoice == 1) end += "You Lose!"; //scissor-rock
+                else if (computerChoice == 2) end += "You Win!"; //scissor-paper
+                else end += "Is a Tie!"; //scissor-scissors
+            }
+
+            end += " ";
 
             //STEP 4:
             //Reach out into the DOM with getElementById() and insert the end into the result div.
+            document.getElementById("result").innerHTML = end;
 
         }
 
