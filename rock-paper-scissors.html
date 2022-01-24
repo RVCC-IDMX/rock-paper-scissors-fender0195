@@ -145,7 +145,7 @@
             end += " ";
 
             if (computerChoice == 1) {
-                end += 'The Computer Chose Rock';
+                end += "The Computer Chose Rock";
             }
             else if (computerChoice == 2) {
                 end += "The Computer Chose Paper";
@@ -183,6 +183,14 @@
         //This code links in the Rock button so that when it's clicked it fires off the game.
         document.getElementById("rock").onclick = () => {
             rockPaperScissors(1);
+        };
+
+        document.getElementById("paper").onclick = () => {
+            rockPaperScissors(2);
+        };
+
+        document.getElementById("scissors").onclick = () => {
+            rockPaperScissors(3);
         };
 
         //STEP 5:
