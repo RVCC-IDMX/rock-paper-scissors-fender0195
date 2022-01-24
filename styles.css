@@ -13,12 +13,30 @@
     padding-bottom:20px;
 }
 #choices {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
     padding:auto;
 }
 button {
     font-size:20px;
     font-family:Georgia;
-    padding:20px;
+    padding:100px;
+}
+
+button#rock{
+    background-image: url(./images/Rock.png);
+    background-position: center;
+    background-size: contain;
+    margin-right: 8%;
+}
+
+button#paper{
+    background-image: url(./images/Paper.png);
+    background-position: center;
+    background-size: contain;
+}
+
+button#scissors{
+    background-image: url(./images/Scissors.png);
+    background-position: center;
+    background-size: contain;
+    margin-left: 8%;
 }
