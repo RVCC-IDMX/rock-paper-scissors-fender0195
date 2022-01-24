@@ -1,5 +1,6 @@
 #result {
 
+
 }
 #bid{
     border:1px solid black;
@@ -11,6 +12,10 @@
     padding:0px;
     margin:0px;
     padding-bottom:20px;
+    font-family: synthemesc, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
 }
 #choices {
     padding:auto;
