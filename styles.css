@@ -24,19 +24,35 @@ button {
 button#rock{
     background-image: url(./images/Rock.png);
     background-position: center;
-    background-size: contain;
-    margin-right: 8%;
+    background-size: 150%;
+    background-color: lightgray;
+    margin: 5% 6% 0 0;
+    border-width: 8px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 20%;
 }
 
 button#paper{
     background-image: url(./images/Paper.png);
     background-position: center;
-    background-size: contain;
+    background-size: 150%;
+    background-color: lightyellow;
+    margin: 5% 0 0 0;
+    border-width: 8px;
+    border-color: gold;
+    border-style: solid;
+    border-radius: 20%;
 }
 
 button#scissors{
     background-image: url(./images/Scissors.png);
     background-position: center;
     background-size: contain;
-    margin-left: 8%;
+    background-color: lightgreen;
+    margin: 5% 0 0 5%;
+    border-width: 8px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 20%;
 }
