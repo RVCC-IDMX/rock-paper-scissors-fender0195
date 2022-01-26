@@ -118,7 +118,7 @@
                 end += "You Chose Scissors,";
             }
 
-            end += " ";
+            end += "<br>";
 
             if (computerChoice == 1) {
                 end += "The Computer Chose Rock,";
@@ -130,7 +130,7 @@
                 end += "The Computer Chose Scissors,";
             }
 
-            end += " ";
+            end += "<br>";
 
             if (humanChoice == 1) {
                 if (computerChoice == 1) end += "Is a Tie!"; //rock-rock
@@ -147,8 +147,6 @@
                 else if (computerChoice == 2) end += "You Win!"; //scissor-paper
                 else end += "Is a Tie!"; //scissor-scissors
             }
-
-            end += " ";
 
             //STEP 4:
             //Reach out into the DOM with getElementById() and insert the end into the result div.
