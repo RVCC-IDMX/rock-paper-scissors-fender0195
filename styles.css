@@ -6,7 +6,7 @@
     font-size: 40px;
     font-family: hobeaux,sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: bold;
     color: white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
@@ -27,9 +27,9 @@
     font-family: synthemesc, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 100px;
     color: white;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 4px;
     -webkit-text-stroke-color: black;
     
 }
@@ -67,7 +67,7 @@ button#paper{
     background-image: url(./images/Paper.png);
     background-position: center;
     background-size: 150%;
-    background-color: gold;
+    background-color: rgb(255, 145, 0);
     margin: 5% 0 0 0;
     border-width: 8px;
     border-color: black;
@@ -76,9 +76,9 @@ button#paper{
     box-shadow: 0 9px rgb(24, 24, 24);
 }
 
-button#paper:hover {background-color: gold}
+button#paper:hover {background-color: rgb(255, 145, 0)}
 button#paper:active {
-  background-color: gold;
+  background-color: rgb(255, 145, 0);
   box-shadow: 0 5px rgb(24, 24, 24);
   transform: translateY(4px);
 }
