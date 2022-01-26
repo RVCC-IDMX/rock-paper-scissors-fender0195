@@ -42,6 +42,7 @@ button {
     padding:100px;
 }
 
+
 button#rock{
     background-image: url(./images/Rock.png);
     background-position: center;
@@ -52,6 +53,14 @@ button#rock{
     border-color: black;
     border-style: solid;
     border-radius: 20%;
+    box-shadow: 0 9px rgb(24, 24, 24);
+}
+
+button#rock:hover {background-color: steelblue}
+button#rock:active {
+  background-color: steelblue;
+  box-shadow: 0 5px rgb(24, 24, 24);
+  transform: translateY(4px);
 }
 
 button#paper{
@@ -64,6 +73,14 @@ button#paper{
     border-color: black;
     border-style: solid;
     border-radius: 20%;
+    box-shadow: 0 9px rgb(24, 24, 24);
+}
+
+button#paper:hover {background-color: gold}
+button#paper:active {
+  background-color: gold;
+  box-shadow: 0 5px rgb(24, 24, 24);
+  transform: translateY(4px);
 }
 
 button#scissors{
@@ -76,4 +93,12 @@ button#scissors{
     border-color: black;
     border-style: solid;
     border-radius: 20%;
+    box-shadow: 0 9px rgb(24, 24, 24);
+}
+
+button#scissors:hover {background-color: yellowgreen}
+button#scissors:active {
+  background-color: yellowgreen;
+  box-shadow: 0 5px rgb(24, 24, 24);
+  transform: translateY(4px);
 }
