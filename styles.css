@@ -73,7 +73,7 @@ button#scissors{
     background-color: lightgreen;
     margin: 5% 0 0 5%;
     border-width: 8px;
-    border-color: #267700;
+    border-color: black;
     border-style: solid;
     border-radius: 20%;
 }
