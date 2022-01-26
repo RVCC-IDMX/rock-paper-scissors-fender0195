@@ -46,10 +46,10 @@ button#rock{
     background-image: url(./images/Rock.png);
     background-position: center;
     background-size: 150%;
-    background-color: lightcyan;
+    background-color: steelblue;
     margin: 5% 6% 0 0;
     border-width: 8px;
-    border-color: steelblue;
+    border-color: black;
     border-style: solid;
     border-radius: 20%;
 }
@@ -58,10 +58,10 @@ button#paper{
     background-image: url(./images/Paper.png);
     background-position: center;
     background-size: 150%;
-    background-color: rgb(231, 196, 255);
+    background-color: gold;
     margin: 5% 0 0 0;
     border-width: 8px;
-    border-color: rgb(153, 0, 255);
+    border-color: black;
     border-style: solid;
     border-radius: 20%;
 }
@@ -70,7 +70,7 @@ button#scissors{
     background-image: url(./images/Scissors.png);
     background-position: center;
     background-size: contain;
-    background-color: lightgreen;
+    background-color: yellowgreen;
     margin: 5% 0 0 5%;
     border-width: 8px;
     border-color: black;
