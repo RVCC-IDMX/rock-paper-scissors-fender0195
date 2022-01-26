@@ -6,15 +6,12 @@
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/wtw8veh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/rqv0jqy.css">
 
 </head>
 <body>
 
-    <div id="result">
-
-        <!-- This is where our results will go -->
-
-    </div>
+    
 
     <div id="bid">
 
@@ -28,6 +25,12 @@
 
             <button id="scissors"></button>
 
+        </div>
+
+        <div id="result">
+
+            <!-- This is where our results will go -->
+    
         </div>
 
     </div>
@@ -106,25 +109,25 @@
             var end = "";
 
             if (humanChoice == 1) {
-                end += 'You Chose Rock';
+                end += "You Chose Rock,";
             }
             else if (humanChoice == 2) {
-                end += "You Chose Paper";
+                end += "You Chose Paper,";
             }
             else if (humanChoice == 3) {
-                end += "You Chose Scissor";
+                end += "You Chose Scissor,";
             }
 
             end += " ";
 
             if (computerChoice == 1) {
-                end += "The Computer Chose Rock";
+                end += "The Computer Chose Rock,";
             }
             else if (computerChoice == 2) {
-                end += "The Computer Chose Paper";
+                end += "The Computer Chose Paper,";
             }
             else if (computerChoice == 3) {
-                end += "The Computer Chose Scissor";
+                end += "The Computer Chose Scissor,";
             }
 
             end += " ";
